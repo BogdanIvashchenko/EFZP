@@ -1,7 +1,7 @@
-#EFZP
+# EFZP
 An acronym for Email Functional Zone Parser
 
-###The idea
+### The idea
 
 It turns this:
 
@@ -20,7 +20,7 @@ into this:
 }
 ```
 
-##Installation
+## Installation
 
 ```bash
 git clone https://github.com/Trindaz/EFZP.git
@@ -28,7 +28,7 @@ git clone https://github.com/Trindaz/EFZP.git
 
 or just download [EFZP.py](https://raw.githubusercontent.com/Trindaz/EFZP/master/EFZP.py)
 
-##Usage
+## Usage
 
 This python script
 
