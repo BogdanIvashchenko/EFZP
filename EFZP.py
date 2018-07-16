@@ -175,7 +175,7 @@ def get_salutation(email_text):
                                      "good evening",
                                      "thankyou",
                                      "thank you"]
-    pattern = "\s*(?P<salutation>(" + "|".joinfields(salutation_opening_statements) + ")+(\s*\w*)(\s*\w*)(\s*\w*)(\s*\w*)(\s*\w*)[\.,\xe2:]+\s*)"
+    pattern = "\s*(?P<salutation>(" + "|".join(salutation_opening_statements) + ")+(\s*\w*)(\s*\w*)(\s*\w*)(\s*\w*)(\s*\w*)[\.,\xe2:]+\s*)"
     groups = re.match(pattern, email_text, re.IGNORECASE)
     salutation = None
     if not groups is None:
